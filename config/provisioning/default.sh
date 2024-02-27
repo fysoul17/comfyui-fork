@@ -20,8 +20,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/126470/majicmixRealistic_betterV2V25.safetensors" # majicMIX realistic
-    "https://civitai.com/api/download/models/356366/RealitiesEdgeXLLIGHTNING_LIGHTNING34Step.safetensors" # ⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING
+    "https://civitai.com/api/download/models/356366?token=${TOKEN}" # ⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING
+    "https://civitai.com/api/download/models/176425?token=${TOKEN}" # majicMIX realistic
     # "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
