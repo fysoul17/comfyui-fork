@@ -21,6 +21,14 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
 )
 
+CLIPVISION_MODELS=(
+    "https://huggingface.co/h94/IP-Adapter/blob/main/models/image_encoder/model.safetensors"
+)
+
+IPADAPTER_MODELS=(
+    "https://huggingface.co/h94/IP-Adapter/blob/main/models/ip-adapter-plus_sd15.safetensors"
+)
+
 CHECKPOINT_MODELS=(
     #"https://civitai.com/api/download/models/356366?token=${TOKEN}" # ⋅ ⊣ Realities Edge XL ⊢ ⋅ LIGHTNING
     "https://civitai.com/api/download/models/176425?token=${TOKEN}" # majicMIX realistic
@@ -94,6 +102,12 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/clip_vision" \
+        "${CLIPVISION_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
+        "${IPADAPTER_MODELS[@]}"
     provisioning_print_end
 }
 
