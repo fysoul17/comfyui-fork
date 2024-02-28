@@ -31,8 +31,8 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/models/121419" # business suit airt
-    "https://civitai.com/models/42903" # Doll Likeness - by EDG
+    "https://civitai.com/api/download/models/132114?type=Model&format=SafeTensor&token=${TOKEN}" # business suit airt
+    "https://civitai.com/api/download/models/352749?token=${TOKEN}" # Doll Likeness - by EDG
     #"https://civitai.com/api/download/models/16576"
 )
 
@@ -49,6 +49,7 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
+    "https://huggingface.co/h94/IP-Adapter/blob/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors" # IP Adapter
     "https://huggingface.co/hr16/ControlNet-HandRefiner-pruned/blob/main/control_sd15_inpaint_depth_hand_fp16.safetensors" # Hand Refiner
     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
