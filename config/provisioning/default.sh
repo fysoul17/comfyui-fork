@@ -26,7 +26,8 @@ CLIPVISION_MODELS=(
 )
 
 IPADAPTER_MODELS=(
-    "https://huggingface.co/h94/IP-Adapter/blob/main/models/ip-adapter-plus_sd15.safetensors"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.bin?download=true"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true"
 )
 
 CHECKPOINT_MODELS=(
