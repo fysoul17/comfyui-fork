@@ -17,6 +17,8 @@ NODES=(
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/storyicon/comfyui_segment_anything"  
     "https://github.com/Fannovel16/comfyui_controlnet_aux"  
+    "https://github.com/chrisgoringe/cg-use-everywhere"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
 )
 
 CHECKPOINT_MODELS=(
