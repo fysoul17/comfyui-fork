@@ -8,6 +8,7 @@
 
 PYTHON_PACKAGES=(
     #"opencv-python==4.7.0.72"
+    "onnxruntime"
 )
 
 NODES=(
